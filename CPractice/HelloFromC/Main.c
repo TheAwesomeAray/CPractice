@@ -28,8 +28,19 @@ void Copy() {
 	}
 }
 
+void VerifyGetCharEOFEquals0Or1() {
+	int c;
+	int value = c = getchar() != EOF;
+	printf("%d", value);
+	scanf_s("%s");
+}
+
+void PrintEOF() {
+	printf("%d", EOF);
+}
+
 void main()
 {
-	Copy();
+	VerifyGetCharEOFEquals0Or1();
 }
 
