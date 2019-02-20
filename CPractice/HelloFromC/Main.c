@@ -39,8 +39,17 @@ void PrintEOF() {
 	printf("%d", EOF);
 }
 
+void CharacterCounter() {
+	long nc;
+	nc = 0;
+	while (getchar() != EOF)
+		++nc;
+
+	printf("%1d\n", nc);
+}
+
 void main()
 {
-	VerifyGetCharEOFEquals0Or1();
+	CharacterCounter();
 }
 
