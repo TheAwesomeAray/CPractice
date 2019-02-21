@@ -115,7 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Excercise21.c" />
     <ClCompile Include="Main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Excercise21.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
